@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+main {
+  width: 100vw;
+  height: 50vh;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*index*/
+.bar {
+  position: absolute;
+  top: 730px;
+  left: 850px;
+  width: 300px;
+  height: 20px;
+  padding-top: 19px;
+  padding-left: 20px;
+  padding-bottom: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: initial;
+  color: white;
+  background-color: rgb(8, 8, 8);
+}
+
+.bar2 a:link {
+  text-decoration: none;
+  position: absolute;
+  top: 810px;
+  left: 850px;
+  width: 200px;
+  height: 20px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:none;
+  transition: 0.5s;
+  background-color: rgb(8, 8, 8);
+  display: inline-block;
+}
+
+.bar2 a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(102, 0, 161);
+}
+
+.bar3img {
+  position: absolute;
+  top: 60vw;
+  left: 850px;
+  width: 1033px;
+  height: 655px;
+  padding-top: 19px;
+  padding-left: 20px;
+  padding-bottom: 21px;
+  background-image: url('../image/img1.jpg');
+}
+  /*navigation*/
+nav {
+  position: fixed;
+  top: 350px;
+  left: 80px;
+  width: 200px;
+  height: 400px;
+  padding-top: 100px;
+}
+.nav2 {
+  position: fixed;
+  top: 0px;
+  left: 170px;
+  right: auto;
+  width: 100%;
+  height: 40px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: white;
+  z-index: 10;
+  animation-name: nav2;
+  animation-duration: 1.5s;  
+  animation-fill-mode: forwards;
+}
+@keyframes nav2 {
+  from {top: 50px;}
+  to {top: 0px;color: rgb(8, 8, 8);}
+}
+
+
+nav main {
+  padding-top: 0px;
+
+}
+
+nav main a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  background-color: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 0px;
+  padding-right: 20px;
+}
+
+nav main a:hover {
+  font-style: initial;
+  text-shadow: black;
+  color: rgb(97, 9, 36);
+}
+
+/*nav .selalukananatas {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(216, 9, 9);
+  border-radius: 25px;
+}*/
+
+
+
+section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+section.full {
+  /*background-image: url('../image/bg.jpg');*/
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+section.full2 {
+ /*background-image: url('../image/bg.jpg');*/
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+section .left {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+section .right {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+/*text content*/
+section .floatsamping {
+  position: absolute;
+  padding-top:40px;
+  left: 850px;
+  width: 30%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  animation-name: example2;
+  animation-duration: 1.5s;  
+  animation-fill-mode: forwards;
+}
+@keyframes example2 {
+  from {left: 450px;}
+  to {top: 0px;color: rgb(8, 8, 8);}
+}
+section .floatsamping2 {
+  position: absolute;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  left: 850px;
+  width: 30%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  animation-name: example12;
+  animation-duration: 1.5s;  
+  animation-fill-mode: forwards;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes example12 {
+  from {left: 450px;}
+  to {top: 0px;color: rgb(8, 8, 8);}
+}
+section .floatsamping3 {
+  position: absolute;
+  padding-top:190px;
+  padding-bottom: 100px;
+  left: 850px;
+  width: 30%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  animation-name: example12;
+  animation-duration: 1.5s;  
+  animation-fill-mode: forwards;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes example12 {
+  from {left: 450px;}
+  to {top: 0px;color: rgb(8, 8, 8);}
+}
+section .floatsamping31 {
+  position: absolute;
+  padding-top: 200px;
+  left: 850px;
+  width: 30%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  animation-name: example12;
+  animation-duration: 1.5s;  
+  animation-fill-mode: forwards;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes example12 {
+  from {left: 450px;}
+  to {top: 0px;color: rgb(8, 8, 8);}
+}
+section .floatsamping32 {
+  position: absolute;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  left: 850px;
+  width: 30%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  animation-name: example12;
+  animation-duration: 1.5s;  
+  animation-fill-mode: forwards;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes example12 {
+  from {left: 450px;}
+  to {top: 0px;color: rgb(8, 8, 8);}
+}
+section .float {
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  width: 37%;
+  height: 150px;
+  padding-top: 90px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: right;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  animation-name: example;
+  animation-duration: 2s;  
+  animation-fill-mode: forwards;
+}
+
+section .float2 {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  width: 500px;
+  height: 150px;
+  padding-top: 90px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+  color: black;
+  animation-name: example;
+  animation-duration: 2s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 100px;}
+}
+
+.float2 {
+  position: absolute;
+  color: black;
+  top: 200px;
+  left: 100px;
+  width: 40%;
+  height: 200px;
+
+}
+
+.float3 {
+  position: absolute;
+  color: black;
+  top: 200px;
+  left: 100px;
+  width: 40%;
+  height: 200px;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    padding-left: 15px;
+    position: fixed;
+      top: 0;
+      left: 0;
+      width: 19vw;
+      height: 100px;
+      padding-top: 18px;
+      background-color:none;
+      z-index: 10;
+  }
+
+  .nav2 {
+    padding-left: 15px;
+    position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 50px;
+      padding-top: 18px;
+      background-color:none;
+      z-index: 10;
+  }
+  nav main a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    font-size: 10pt;
+    padding-right: 15px;
+  }
+   
+  section .float {
+    position:relative;
+    top: 30%;
+    left: 0px;
+    width: 86vw;
+  }
+  section .floatsamping {
+    position: absolute;
+    padding-top: 55vh;
+    margin-left: 30px;
+    margin-right: 70px;
+    padding-bottom: 100px;
+    left: 0px;
+    width: 90%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    animation-name: example2;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+  }
+  .bar3img {
+    position: absolute;
+    top: 170vh;
+    left: 0px;
+    width: 100%;
+  }
+    .bar {
+      display: none;
+    }
+    .bar2 a:link {
+      display:none;
+    }
+    
+    .bar2 a:hover {
+      display: none;
+    
+  }
+  section .floatsamping2 {
+    position: absolute;
+    padding-top: 43vh;
+    padding-bottom: 100px;
+    margin: 8vw;
+    left: 0px;
+    width: 80%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    animation-name: example12;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  @keyframes example12 {
+    from {left: 450px;}
+    to {top: 0px;color: rgb(8, 8, 8);}
+  }
+  section .floatsamping3 {
+    position: absolute;
+    padding-top: 190px;
+    padding-bottom: 100px;
+    left: 850px;
+    width: 30%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    animation-name: example12;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  @keyframes example12 {
+    from {left: 450px;}
+    to {top: 0px;color: rgb(8, 8, 8);}
+  }
+  section .floatsamping31 {
+    position: absolute;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    left: 0px;
+    width: 30%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    animation-name: example12;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  @keyframes example12 {
+    from {left: 450px;}
+    to {top: 0px;color: rgb(8, 8, 8);}
+  }
+
+  section .float2 {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 500px;
+    height: 150px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    color: black;
+    animation-name: example;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes example {
+    from {top: 0px;}
+    to {top: 100px;}
+  }
+  
+  .float2 {
+    position: absolute;
+    color: black;
+    top: 200px;
+    left: 0px;
+    width: 40%;
+    height: 200px;
+  
+  }
+  
+  .float3 {
+    position: absolute;
+    color: black;
+    top: 200px;
+    left: 100px;
+    width: 40%;
+    height: 200px;
+  
+  }
+  main {
+    width: 100vw;
+  }
+  
+  section .left, section .right {
+    width: 100%;
+    height: 50vh;
+  }
